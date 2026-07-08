@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Connexion</title>
+  <style>
+    body { font-family: sans-serif; max-width: 400px; margin: 80px auto; }
+    input { width: 100%; padding: 8px; box-sizing: border-box; }
+    button { padding: 8px 16px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Connexion</h2>
+  <form method="POST" action="/login">
+    <label>Nom d'utilisateur</label>
+    <input type="text" name="username" />
+    <br /><br />
+    <label>Mot de passe</label>
+    <input type="password" name="password" />
+    <br /><br />
+    <button type="submit">Se connecter</button>
+  </form>
+</body>
+</html>
